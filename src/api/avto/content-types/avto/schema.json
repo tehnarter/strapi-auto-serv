@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "avtos",
+  "info": {
+    "singularName": "avto",
+    "pluralName": "avtos",
+    "displayName": "avto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
